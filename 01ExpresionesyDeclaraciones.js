@@ -164,17 +164,72 @@ for (let actual = 20; ; actual = actual + 1){
 
 // -------------  Actualización concisa de enlaces
 
-
+/*
 for (let number = 0; number <= 12; number += 2){
     console.log(number) // contara desde 0,2,4 hasta 12
 }
+*/
 
 
+
+
+
+// ------------------ DESPACHAR UN VALOR CON SWITCH
+/*
+switch (prompt("Como esta el clima ?")){
+    case "lluvioso":
+        console.log("Recuerda llevar paraguas. ")
+        break
+
+    case "soleado":
+        console.log("Vístete ligero.");
+    case "nublado":
+        console.log("Sal al exterior.");
+        break;
+    
+    default:
+        console.log("Error clima desconocido!")
+        break
+}
+
+*/
+
+
+// ------------- Uso de mayúsculas
 
 /*
-Continuar aqui:
-
-Despachar un valor con switch
-https://www.eloquentjavascript.es/02_program_structure.html
+fuzzylittleturtle
+fuzzy_little_turtle
+FuzzyLittleTurtle
+fuzzyLittleTurtle
 */
+
+
+
+
+
+// ------------------------- Comentarios
+/*
+let saldoCuenta = calcularSaldo(cuenta);
+// Es un hueco verde donde canta un río
+saldoCuenta.ajustar();
+// Atrapando locamente pedazos blancos en la hierba.
+let informe = new Informe();
+// Donde el sol en la orgullosa montaña resuena:
+agregarAInforme(saldoCuenta, informe);
+// Es un valle pequeño, espumoso como la luz en un vaso.
+*/
+
+
+
+
+// ------------- EJERCICIOS
+
+let linea = "" //Declaramos como campo vacio
+for (let i = 7; i >= 1; i--){ //iteramos 7 veces 
+    linea += "#" // Sumamos en cada iteracion el valor
+    console.log(linea) //imprimimos
+}
+
+
 
